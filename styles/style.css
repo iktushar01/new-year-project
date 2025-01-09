@@ -186,6 +186,10 @@ span{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding: 50px;
+    margin-top: 100px;
+    background-color: rgba(255, 25, 125, 0.117);
+    border-radius:40px ;
     
 }
 
@@ -194,4 +198,115 @@ span{
     border-radius: 50%;
     padding: 30px;
     border: 15px solid red;
+}
+
+.best-offer-title{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+
+.best-offer-heading{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+
+.best-offer-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.best-offer-main-title{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+
+.best-offer-img-div-2{
+    margin-top: 20px;
+}
+
+
+/* holiday-sale start */
+
+.holiday-sale-container{
+    background-color: floralwhite;
+    margin-top: 100px;
+    padding: 100px;
+    border-radius: 30px;
+}
+
+.holiday-sale-title{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.holiday-sale-heading{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.holiday-sale-description{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.holiday-sale-img-container{
+    position: relative;
+}
+
+.holiday-sale-gift-img{
+    position: absolute;
+    z-index: 2;
+    width: 450px;
+    margin-left: 80px;
+    
+}
+
+.holiday-sale-shape-img{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.holiday-sale-discount-img{
+    margin-left: 800px;
 }
