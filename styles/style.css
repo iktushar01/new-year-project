@@ -99,3 +99,99 @@ margin-bottom: 30px;
 }
 
 
+/* party container style */
+
+.party-container{
+    
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../resources/images/Vectorrr.png);
+    height: 600px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 100px;
+    gap: 100px;
+    
+}
+
+.party-container-title{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.party-container-description{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.party-container-btn{
+    background: red;
+    color: aliceblue;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+    transition: 0.4s;
+}
+
+.party-container-btn:hover{
+    background: rgb(46, 43, 43);
+    color: rgb(179, 242, 6);
+}
+
+/* party-place-container here */
+
+.party-place-container{
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+padding: 100px;
+margin-top: 100px;
+}
+
+.party-place-container-text{
+   
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.party-container-place-btn-div{
+    text-align: center;
+}
+
+span{
+    color: rgb(255, 0, 0);
+}
+
+/* best-offer section start  */
+
+.best-offer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.best-offer-img-div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 30px;
+    border: 15px solid red;
+}
