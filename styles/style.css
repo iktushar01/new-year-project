@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -11,28 +10,26 @@
 .container {
   max-width: 1320px;
   margin: 0 auto;
-    
 }
-.Merriweather-font{
-    font-family: "Merriweather", serif;
+.Merriweather-font {
+  font-family: "Merriweather", serif;
 }
-.inter-font{
-    font-family: Inter;
+.inter-font {
+  font-family: Inter;
 }
 
 /* this is header section */
 
 .header {
   background-image: url(../resources/images/Banner\ Image.png);
-  background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0.54) 100%),url(../resources/images/Banner\ Image.png);
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0.54) 100%),
+    url(../resources/images/Banner\ Image.png);
   height: 600px;
   margin: 0 auto;
   margin-top: 30px;
   border-radius: 40px;
-
 }
 .header-container {
-    
   text-align: center;
   padding: 177px 344px;
 }
@@ -46,171 +43,290 @@
   letter-spacing: 0%;
   text-align: center;
 }
-.header-big-heading{
-    color: rgb(255, 255, 255);
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 95px;
-letter-spacing: 0%;
-text-align: center;
+.header-big-heading {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-
 
 /* discount section start */
 
-.discount-container{
-    width: 802.9px;
-    
-    margin: 120px auto;
+.discount-container {
+  width: 802.9px;
+
+  margin: 120px auto;
 }
 
-.discount-title{
-    color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
-line-height: 107px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 40px;
+.discount-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.discount-description{
-    color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 15px;
+.discount-description {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-.discount-sub-title{
-    color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-line-height: 58px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 30px;
+.discount-sub-title {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
 }
-
 
 /* party container style */
 
-.party-container{
-    
-    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../resources/images/Vectorrr.png);
-    height: 600px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    padding: 100px;
-    gap: 100px;
-    
+.party-container {
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(../resources/images/Vectorrr.png);
+  height: 600px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 100px;
+  gap: 100px;
 }
 
-.party-container-title{
-    color: rgb(255, 255, 255);
-font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
-letter-spacing: 11%;
-text-align: left;
-margin-bottom: 20px;
+.party-container-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
-.party-container-description{
-    color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
+.party-container-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
-.party-container-btn{
-    background: red;
-    color: aliceblue;
-    padding: 20px 40px;
-    font-size: 20px;
-    border-radius: 10px;
-    margin-top: 40px;
-    border: none;
-    transition: 0.4s;
+.party-container-btn {
+  background: red;
+  color: aliceblue;
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  border: none;
+  transition: 0.4s;
 }
 
-.party-container-btn:hover{
-    background: rgb(46, 43, 43);
-    color: rgb(179, 242, 6);
+.party-container-btn:hover {
+  background: rgb(46, 43, 43);
+  color: rgb(179, 242, 6);
 }
 
 /* party-place-container here */
 
-.party-place-container{
-    border-radius: 16px;
-background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
-padding: 100px;
-margin-top: 100px;
+.party-place-container {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px;
+  margin-top: 100px;
 }
 
-.party-place-container-text{
-   
-    font-family: Inter;
-font-size: 32px;
-font-weight: 600;
-line-height: 56px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
+.party-place-container-text {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.party-container-place-btn-div{
-    text-align: center;
+.party-container-place-btn-div {
+  text-align: center;
 }
 
-span{
-    color: rgb(255, 0, 0);
+span {
+  color: rgb(255, 0, 0);
 }
 
 /* best-offer section start  */
 
-.best-offer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 50px;
+.best-offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+  margin-top: 100px;
+  background-color: rgba(255, 25, 125, 0.117);
+  border-radius: 40px;
+}
+
+.best-offer-img-div {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 30px;
+  border: 15px solid red;
+}
+
+.best-offer-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.best-offer-heading {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.best-offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.best-offer-main-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.best-offer-img-div-2 {
+  margin-top: 20px;
+}
+
+/* holiday-sale start */
+
+.holiday-sale-container {
+  background-color: floralwhite;
+  margin-top: 100px;
+  padding: 100px;
+  border-radius: 30px;
+}
+
+.holiday-sale-title {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.holiday-sale-heading {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.holiday-sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.holiday-sale-img-container {
+  position: relative;
+}
+
+.holiday-sale-gift-img {
+  position: absolute;
+  z-index: 2;
+  width: 450px;
+  margin-left: 80px;
+}
+
+.holiday-sale-shape-img {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.holiday-sale-discount-img {
+  margin-left: 800px;
+}
+
+/* portfolio-container-start */
+.portfolio-container{
     margin-top: 100px;
-    background-color: rgba(255, 25, 125, 0.117);
-    border-radius:40px ;
     
 }
 
-.best-offer-img-div{
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    padding: 30px;
-    border: 15px solid red;
+.portfolio-container-img-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
-.best-offer-title{
+.portfolio-container-title{
     color: rgb(255, 0, 0);
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 line-height: 29px;
 letter-spacing: 0%;
+text-align: left;
 margin-bottom: 20px;
 }
 
-.best-offer-heading{
+.portfolio-container-heading{
     color: rgb(7, 2, 17);
 font-family: Merriweather;
 font-size: 48px;
@@ -222,7 +338,7 @@ text-transform: capitalize;
 margin-bottom: 20px;
 }
 
-.best-offer-description{
+.portfolio-container-description{
     color: rgba(7, 2, 17, 0.6);
 font-family: Inter;
 font-size: 20px;
@@ -230,83 +346,5 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0%;
 text-align: left;
-}
-
-.best-offer-main-title{
-    color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-line-height: 58px;
-letter-spacing: 0%;
-text-align: left;
 margin-bottom: 20px;
-}
-
-
-.best-offer-img-div-2{
-    margin-top: 20px;
-}
-
-
-/* holiday-sale start */
-
-.holiday-sale-container{
-    background-color: floralwhite;
-    margin-top: 100px;
-    padding: 100px;
-    border-radius: 30px;
-}
-
-.holiday-sale-title{
-    color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-.holiday-sale-heading{
-    font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 91px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-.holiday-sale-description{
-    color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-
-.holiday-sale-img-container{
-    position: relative;
-}
-
-.holiday-sale-gift-img{
-    position: absolute;
-    z-index: 2;
-    width: 450px;
-    margin-left: 80px;
-    
-}
-
-.holiday-sale-shape-img{
-    position: relative;
-    margin-top: 50px;
-    width: 100%;
-    border-radius: 40px;
-}
-
-.holiday-sale-discount-img{
-    margin-left: 800px;
 }
