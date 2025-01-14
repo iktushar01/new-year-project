@@ -23,7 +23,7 @@
 .header {
   
   background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0.54) 100%),
-    url(resources/images/banner-image.png);
+    url(./resources/images/banner.png);
   height: 600px;
   margin: 0 auto;
   margin-top: 30px;
@@ -98,7 +98,7 @@
 
 .party-container {
   background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
-    url(resources/images/vectorrr.png);
+    url(./resources/images/vector.png);
   height: 600px;
   border-radius: 40px;
   display: flex;
